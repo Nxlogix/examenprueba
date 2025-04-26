@@ -45,3 +45,5 @@ app.register_blueprint(usuario_bp, url_prefix='/usuarios')
 # Ejecutar la aplicación
 if __name__ == '__main__':
     app.run(debug=True)
+
+    
