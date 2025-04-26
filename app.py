@@ -13,7 +13,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Permitir solo el dominio de tu frontend de Amplify
-CORS(app, resources={r"/*": {"origins": "https://main.d28v45ff9v5d7h.amplifyapp.com"}}) # cambialo por tu link de amplify 
+CORS(app, resources={r"/*": {"origins": "https://main.df4r7dk920gqc.amplifyapp.com"}}) # cambialo por tu link de amplify 
 
 # Configuración de JWT y base de datos
 app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY', 'Clave secreta para examen')
